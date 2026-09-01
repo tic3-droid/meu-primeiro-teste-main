@@ -15,13 +15,31 @@
         h1 {
             color: #00b37e;
         }
+                .botao {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 24px;
+            background-color: #00b37e; /* Cor verde igual ao seu título */
+            color: #ffffff;            /* Texto branco */
+            text-decoration: none;     /* Remove o sublinhado padrão de links */
+            font-weight: bold;
+            border-radius: 8px;        /* Bordas arredondadas */
+            transition: background 0.2s;
+        }
+        .botao:hover {
+            background-color: #00875f; /* Fica um verde mais escuro quando passa o mouse */
+        }
+
     </style>
 </head>
 <body>
-    <h1>Meu Primeiro Site no GitHub!</h1>
+    <h1>Meu Primeiro Site no GitHub com foto!</h1>
     <p>Consegui criar e subir esta página usando o VS Code.</p>
     
     <!-- Link de imagem ultra seguro e direto -->
     <img src="foto.jpg" alt="Minha foto local" style="border-radius: 10px; margin-top: 20px; max-width: 250px;">
+
+        <br>
+    <a href="https://google.com" target="_blank" class="botao">Visitar o Google</a>
 
 </html>
